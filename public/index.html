@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -10,9 +10,52 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .side-nav {
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding: 5.00em 2.00em 5.00em 5.00em;
+            width:200px;
+            text-transform:lowercase;
+        }
+
+            .side-nav li {
+                padding: 1.00em;
+                display: block;
+            }
+
+                    .side-nav li.selected a:before {
+                        content: '> ';
+                    }
+
+                .side-nav li a {
+                    text-decoration: none;
+                    color: #3c3b3b;
+                }
+
+                .content { margin-left: 200px; float:left; }
+    </style>
 </head>
 <body>
-    <h1>Natalie Giarratano Editing</h1>
+    <section class="side-nav">
+        <ul class="list-unstyled">
+            <li class="selected"><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </section>
+
+    <section class="content">
+
+        <h1>Natalie Giarratano Editing</h1>
+    </section>
+
 
 
     <!-- Latest compiled and minified JavaScript -->
