@@ -81,3 +81,25 @@ body {
 .bigger-175 {
     font-size: 175% !important;
 }
+
+
+
+.link-unstyled {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.link-unstyled:link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.link-unstyled:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.link-unstyled:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
